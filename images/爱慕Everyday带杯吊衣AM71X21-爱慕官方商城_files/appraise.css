@@ -1,0 +1,168 @@
+/*我要评价样式*/
+.myappraise input{vertical-align:top; font-family:Arial, Helvetica, sans-serif;  width:14px; height:14px; margin-right:5px;}
+.myappraise{ width:493px; margin:0 auto; overflow:hidden;}
+.myappheader{ width:493px; height:41px;}
+.myappheader div{ float:left;}
+.myappnim{ padding:29px 0 0 13px; font-weight:bold; color:#000;}
+.myappheader .myappclosed{ float:right; padding-top:15px; padding-right:19px; cursor:pointer;}
+.myappconten{ padding:3px 11px 17px 13px; width:469px; overflow:hidden; clear:both;}
+.myappleft{ float:left; padding-left:25px; width:226px; overflow:hidden; padding-top:5px; padding-bottom:25px;}
+.myappleftli{ padding-top:13px; height:12px; color:#000; line-height:12px; font-size:12px; clear:both;}
+.myappleftli em{ float:left; padding-top:2px; width:45px;}
+.myappemtit{ float:left;  padding-top:2px; padding-left:0px; color:#959595; }
+.myappleftli ul{ float:left; }
+.myappleftli ul img{cursor:pointer; padding-right:1px; }
+.myappright{ float:left; background:url(http://img.aimer.com.cn/theme/2012spring/images/rating/appraise_c6.jpg) no-repeat; width:182px; height:38px; line-height:38px; padding-left:20px; color:#000; margin-top:17px;}
+.myapptl{ padding-top:5px; padding-bottom:5px;}
+.myappcp{ padding-top:7px; overflow:hidden; padding-left:25px;}
+.myappcp li{ padding-top:13px;display:block; overflow:hidden; color:#000;}
+.myappcp li em{ font-weight:bold; color:#000;}
+.myappinput input{ margin-left:20px;}
+.myappbuy{ padding-top:7px; padding-bottom:5px; overflow:hidden; clear:both;}
+.myapptextarea{ padding-left:25px; overflow:hidden; padding-top:3px;}
+.myapptextarea textarea{ border-top:2px solid #74736E; border-left:2px solid #74736E; border-right:2px solid #F1F0EE; border-bottom:2px solid #F1F0EE; width:361px; height:102px; overflow:hidden; background:url(http://img.aimer.com.cn/theme/2012spring/images/rating/appraise_c11.jpg) no-repeat right bottom;}
+.myappbuybut{ float:right; padding-right:38px; padding-top:5px;}
+/*评价样式*/
+.appcontent{ width:787px; margin:0 auto; overflow:hidden; padding:26px 24px 22px 34px; color:#000;}
+.appnav{ overflow:hidden; height:32px;  border-bottom:1px solid #7C7C7C; width:787px; display:block; }
+.appnav li{ float:left; height:32px; line-height:32px; background-color:#7C7C7C; border-right:1px solid #BABABA;}
+.appnav li a{ color:#FFF; line-height:32px; height:32px; text-align:center; padding:0 18px; display:inline-block;}
+.appnav li a:hover{ color:#FFF; background-color:#D30B18;}
+.appnav .appnavtail{ border-right:0px;}
+.appnav .appnavsele{  background-color:#D30B18;}
+.appcenter{ width:800px; overflow:hidden; background-color:#F2F2F2; border-bottom:1px solid #CCCCCC; padding:20px 0 20px 20px}
+.appstar{ display:block; clear:both; overflow:hidden; width:787px;}
+.appstar li{ float:left; height:14px; line-height:14px; padding-right:24px;}
+.appterico{ background: url("http://img.aimer.com.cn/theme/2012spring/images/spritesbg.gif") no-repeat scroll 0 -344px; padding-left:15px; height:14px;font-size:12px; width:55px; padding-top:1px; font-weight:bold;}
+.appstar li img{ padding-right:1px;}
+.appstarcle{ padding-top:1px; padding-left:25px;}
+.appstarcle span{ color:#D30B18;}
+.appattribute{ overflow:hidden; display:block; padding-top:12px;}
+.appattribute .appterico{ padding-right:12px; padding-top:0;}
+.appattribute li{ float:left; overflow:hidden; display:block;}
+.appatttitle{ padding-left:10px; font-weight:bold;}
+.appattdata{ padding-left:5px; overflow:hidden; width:159px; border-right:1px solid #B7B7B7;}
+.appdatasx{ float:left; padding-right:10px;}
+.appdatasize{ float:left; width:90px; height:11px; padding-top:1px; *_padding-top:0px;}
+.appdatavalue{ background-color:#A0A0A0; height:11px;}
+.clear11{ clear:both; height:11px; line-height:11px; overflow:hidden;}
+.tablapadding{ padding-left:19px;}
+.apptable tr{ margin-bottom:12px;}
+.tableappkf{ margin-top:12px; background-color:#F2F2F2; padding-left:19px; }
+.tableappkf p{  width:550px; line-height:24px;}
+.fontcolor{ color:#D30B18;}
+.apptableboder{border-bottom:1px solid #CCCCCC; padding-bottom:12px;}
+.shop-rating {
+  height: 25px;
+  overflow: hidden;
+  zoom: 1;
+  padding: 2px 0px;
+  position: relative;
+  z-index: 999;
+  width:300px;
+}
+.shop-rating span {
+  height: 23px;
+  display: block;
+  line-height: 23px;
+  float: left;
+}
+.shop-rating span.title {
+  width: 55px;
+  text-align:left;
+  margin-right: 0px;
+}
+.shop-rating ul {
+  float: left;
+  margin:0;padding:0
+}
+.shop-rating .result {
+  margin-left: 0px;
+  padding-top: 2px;
+}
+.shop-rating .result span {
+  color: #ff6d02;
+}
+.shop-rating .result em {
+  color: #f60;
+  font-family: arial;
+  font-weight: bold;
+}
+.shop-rating .result strong {
+  color: #666666;
+  font-weight: normal;
+}
+.rating-level,
+.rating-level a {
+  background: url(http://img.aimer.com.cn/theme/2012spring/images/rating/star_v2.png) no-repeat scroll 1000px 1000px;
+}
+.rating-level {
+  background-position: 0px 0px;
+  width: 120px;
+  height: 23px;
+  position: relative;
+  z-index: 1000;
+}
+.rating-level li {
+  display: inline;
+}
+
+.rating-level a {
+  line-height: 23px;
+  height: 23px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-indent: -999em;
+  *zoom: 1;
+}
+.rating-level a.one-star {
+  width: 20%;
+  z-index: 6;
+}
+
+.rating-level a.two-stars {
+  width: 40%;
+  z-index: 5;
+}
+
+.rating-level a.three-stars {
+  width: 60%;
+  z-index: 4;
+}
+
+.rating-level a.four-stars {
+  width: 80%;
+  z-index: 3;
+}
+.rating-level a.five-stars {
+  width: 100%;
+  z-index: 2;
+}
+.rating-level .current-rating,.rating-level a:hover{background-position:0 -28px;}
+.rating-level a.one-star:hover,.rating-level a.two-stars:hover,.rating-level a.one-star.current-rating,.rating-level a.two-stars.current-rating{background-position:0 -116px;}
+.rating-level .three-stars .current-rating,.rating-level .four-stars .current-rating,.rating-level .five-stars .current-rating{background-position:0 -28px;}
+.appstar li em{ float:left;}
+.appstarbj{ float:left; width:69px; height:12px; background:url(http://img.aimer.com.cn/theme/2012spring/images/rating/appbj0.gif) no-repeat;}
+.appstarbjnum{ float:left; height:12px; background:url(http://img.aimer.com.cn/theme/2012spring/images/rating/appbj1.gif) no-repeat;}
+/*尺码弹出框样式*/
+.shadow{-moz-box-shadow:1px 1px 3px rgba(0,0,0,.4); -webkit-box-shadow:1px 1px 3px rgba(0,0,0,.4); box-shadow:1px 1px 3px rgba(0,0,0,.4);}
+.target_box{width:400px; padding:6px; border:1px solid #aaa; background-color:#fff;}
+.target_list{padding:4px; border-bottom:1px dotted #ddd; overflow:hidden; _zoom:1;}
+.target_list a{width:22px; line-height:20px; margin-right:5px; padding:1px; color:#333; font-size:12px; text-align:center; text-decoration:none; float:left;}
+.target_list a:hover{padding:0; border:1px solid #ddd; color:#cd0000;}
+.target_more{margin-top:-20px;}
+
+.target_fixed{height:25px; padding:1px; position:fixed; _position:absolute; top:0; right:0;}
+.custom_container{position:absolute; background-color:rgba(0, 0, 0, .5); background-color:#999\9;}
+
+.sizechos li {
+  background: url("http://i.ltimg.cn/letaozu/images/shoeUI/sprit_bg02.gif") no-repeat scroll 0 0 transparent;
+  color: #666666;
+  cursor: pointer;
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  width: 35px;
+}

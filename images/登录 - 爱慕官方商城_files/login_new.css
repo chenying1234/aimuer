@@ -1,0 +1,147 @@
+body{background:#FDF7F9}
+*{padding:0px;margin:0px;list-style:none}
+/*登录 头 部分*/
+.loginTop{width:988px;margin:0 auto;height:auto;overflow:hidden;clear:both;font-size:12px;font-family:"微软雅黑"}
+.loginTop img{float:left}
+.loginTopR{width:479px;float:right;list-style:none;margin-left:92px;padding-top:59px;font-weight:700}
+.loginTopR1{float:left;margin-right:15px}
+.loginTopR1 .text{float:left;height:30px;padding:0px 5px;line-height:30px;overflow:hidden}
+.loginTopR1 .icon1{background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/login_icon.png);background-position:0px 0px;width:30px;height:30px;float:left}
+.loginTopR1 .icon2{background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/login_icon.png);background-position:-32px 0px;width:30px;height:30px;float:left}
+.loginTopR1 .icon3{background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/login_icon.png);background-position:-64px 0px;width:30px;height:30px;float:left}
+.loginLogo{ float: left; margin: 30px 0 0 50px;}
+
+/*登录 主页面 部分*/
+.loginMain{width:988px;margin:40px auto 0px auto;clear:both;color:#333;font-family:"微软雅黑";font-size:12px}
+.loginMainLeft{width:348px;height:308px;float:left;margin:32px 94px 75px 75px;display:inline; text-align: center;}
+.loginMainLeft2{width:336px;height:407px;float:left;margin:7px 0px 0px 70px;display:inline;border:1px solid #E0D0D3;background:#FFF}
+.loginMiddle{height:425px;float:left;margin:0px 53px 0px 60px;border-left:1px solid #E4E1DA;border-right:1px solid #fff;overflow:hidden;}
+.loginMainRight{width:276px;height:407px;float:left;margin:7px;padding:0px 30px;border:1px solid #E0D0D3;background:#FFF;display:inline;position:relative}
+.loginBack{margin:30px 0px 26px 0px;line-height:30px}
+.loginBackT{width:270px;height:30px;margin:27px 0px 10px 0px;line-height:30px}
+.loginBackT2{width:270px;height:30px;margin:15px 0px 10px 0px;line-height:30px;text-align:center;font-size:14px}
+.loginBox{width:272px;height:36px;position:relative}
+.loginBox .boxKey{width:18px;height:14px;background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/login_icon.png);background-position:-178px -8px;float:right;position:absolute;right:10px;top:13px;}
+.loginBox input{height:34px;width:260px;border:1px solid #c8c8c8;padding-left:10px;line-height:34px;font-size:14px;color:#858585}
+.loginBox label{ position:absolute; float:left; top:0px; left:10px; line-height:36px; height:36px; color:#858585;cursor:text; font-size:14px;}
+
+.loginBox .inputError{border:1px solid #D93246}
+.loginMainCon1 .boxName{width:270px;border:1px solid #808080;border-top:none;border-bottom:none;height:auto;position:absolute;left:0px;top:36px;*top:37px;z-index:13;background:#FFF}
+.loginMainCon1 .boxName li{ width: 260px;line-height:26px;height:26px;border-bottom:1px solid #808080;float:left;color:#858585;cursor:pointer;padding-left:10px;overflow:hidden}
+.boxName .boxLiHover{background:#FAE5EA}
+.boxError{width:270px;height:26px;padding-left:2px;line-height:26px;color:#D93246}
+.loginButton{background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/login_icon.png);background-position:0px -31px;width:141px;height:38px;margin-top:5px;float:left;cursor: pointer;}
+.buttonGif2{width:16px;height:11px;float:left;position:absolute;top:8px;left:22px;}
+.loginButton3{background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/login_icon.png);background-position:-100px -247px;width:99px;height:30px;margin:10px 0px 0px 83px;float:left; position:relative;display: none;}
+
+/*验证码*/
+.loginRegister{float:left;width:115px;line-height:30px}
+.loginRegister a{color:#333;text-decoration:none} 
+.loginEnd{width:155px;text-align:right;float:left;line-height:30px}
+.loginEnd a{color:#D93246;text-decoration:none}
+.boxVerify{width:272px;height:36px; position:relative}
+.boxVerify input{float:left;width:123px;height:34px;line-height:34px;padding-left:10px;border:1px solid #c8c8c8;font-size:14px;color:#858585;}
+.boxVerify label{ position:absolute; float:left; top:0px; left:10px; line-height:36px; height:36px; color:#858585;cursor:text; font-size:14px;}
+.boxCode{width:49px;height:34px;border:1px solid #c8c8c8;float:left;margin-left:9px}
+.boxRefresh{height:34px;line-height:34px;float:left;color:#858585;padding-left:8px}
+.boxRefresh a{color:#858585;text-decoration:none}
+.registerButton{background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/login_icon.png);background-position:0px -109px;width:141px;height:38px;margin-top:20px;float:left;cursor: pointer;}
+
+.amRule{float:left;width:266px;padding:0px 2px;height:24px;line-height:24px;margin-top:20px;display:block;color:#666}
+.amRule input{display:block;float:left;margin-right:4px}
+.amRule p{display:block;float:left;line-height:14px;_line-height:22px;*line-height:22px}
+.amRule .red{color:#DA3249}
+.amRule .red a{color:#DA3249;text-decoration:none}
+
+/*忘记密码*/
+
+.forget{float:left;width:266px;padding:0px 2px;height:24px;line-height:24px;margin-top:13px;display:block;color:#666}
+.forget input{display:block;float:left;margin-right:4px}
+.forget p{display:block;float:left;line-height:14px;_line-height:22px;*line-height:22px}
+.forget .forgetPw{padding-left:40px}
+.forget .forgetPw a{color:#666;text-decoration:none}
+.forget .forgetPw2{padding-left:40px}
+.forget .forgetPw2 a{color:#C8002B;text-decoration:none}
+.forget .red{color:#DA3249}
+.forget .red a{color:#DA3249;text-decoration:none}
+.partner{width:300px;height:24px;float:left;margin-top:42px;line-height:24px}
+.partner a{width:24px;height:24px;float:left; display: block; margin-right:10px;}
+.partner .icon1{background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/login_icon.png?01);background-position:-0px -330px;}
+.partner .icon2{background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/login_icon.png?01);background-position:-34px -330px;}
+.partner .icon3{background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/login_icon.png?01);background-position:-68px -330px;}
+.partner .icon4{background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/login_icon.png?01); background-position:-103px -330px;}
+.partner .icon1:hover{background-position:-0px -295px;}
+.partner .icon2:hover{background-position:-34px -295px;}
+.partner .icon3:hover{background-position:-68px -295px;}
+.partner .icon4:hover{background-position:-103px -295px;}
+.partner p{float:left;margin-right:10px}
+
+.zIndex8{z-index:8}
+.zIndex7{z-index:7}
+
+/*实体店会员首次登录*/
+.loginMainRight2{width:336px;height:407px;float:left;margin:7px;border:1px solid #E0D0D3;background:#FFF;display:inline;position:relative}
+.loginUl{width:336px;height:30px;line-height:30px;text-align:center;border-bottom:1px solid #DC3346;font-size:14px;cursor:pointer}
+.loginUl li{width:168px;float:left;display:inline;background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/zc_r2_c2.jpg) repeat-x; }
+.loginUl .switchClick{background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/zc_r2_c4.jpg) repeat-x;color:#fff}
+.loginMainCon{width:336px;height:374px;border-top:1px solid #EA8692;}
+.loginMainCon li{width:336px;height:374px;display:block}
+.loginMainCon1{width:306px;height:324px;padding:50px 0px 0px 30px}
+.loginMainCon2{width:314px;height:324px;padding:50px 0px 0px 22px}
+
+.loginBox2{width:202px;height:36px;float:left; position:relative}
+.loginBox2 .inputError{border:1px solid #D93246}
+.loginBox2 input{height:34px;width:190px;border:1px solid #c8c8c8;padding-left:10px;line-height:34px;font-size:14px;color:#858585;}
+.loginBox2 label{ position:absolute; float:left; top:0px; left:10px; line-height:36px; height:36px; color:#858585;cursor:text; font-size:14px;}
+.loginObtain{width:88px;height:28px;float:left;background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/login_icon.png);background-position:0px -187px;margin:4px 0px 0px 8px}
+.loginObtain a{width:88px;height:28px;float:left}
+.boxError2{width:270px;height:26px;padding-left:2px;line-height:26px;color:#D93246;float:left}
+.nextButton{background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/login_icon.png);background-position:0px -148px;width:141px;height:38px;margin-top:20px;float:left;cursor: pointer;}
+
+
+/* 新加 */
+.loginMainCon2 .loginAsk{ width:280px; height:30px; line-height:30px; text-align:center; margin-top:10px;}
+.loginMainCon2 .loginAskY{ width:99px; height:30px; float:left; background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/login_icon.png); background-position:0px -216px; margin:32px 0px 10px 30px; display:inline}
+.loginMainCon2 .loginAskN{ width:99px; height:30px; float:left; background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/login_icon.png); background-position:0px -247px; margin:32px 0px 10px 13px; display:inline}
+.loginMainCon2 .prompt{ width:275px; float:left; margin-top:35px; line-height:24px;}
+.loginMainCon2 .account{ width:280px; float:left;}
+.loginMainCon2 .accountName{float:left; line-height:36px; height:36px; text-align:right}
+.confirmButton{background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/login_icon.png);background-position:-100px -216px;width:99px;height:30px;margin:10px 0px 0px 78px;float:left;cursor: pointer;}
+.confirmButton2{background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/login_icon.png);background-position:-100px -216px;width:99px;height:30px;margin:10px 0px 0px 83px;float:left;cursor: pointer;}
+.loginBox2 label{ position:absolute; float:left; top:0px; left:10px; line-height:36px; height:36px; color:#858585;cursor:text; font-size:14px;}
+.loginBox3{width:172px;height:36px;float:left;position:relative}
+.loginBox3 input{height:34px;width:170px;border:1px solid #c8c8c8;padding-left:10px;line-height:34px;font-size:14px;color:#858585}
+.loginBox3 label{ position:absolute; float:left; top:0px; left:10px; line-height:36px; height:36px; color:#858585;cursor:text; font-size:14px;}
+.boxError3{width:212px;height:26px;padding-left:60px;line-height:26px;color:#D93246;float:left}
+.boxError4{width:189px;height:26px;padding-left:83px;line-height:26px;color:#D93246;float:left}
+.v6seconds{ font-size: 18px;font-weight: bold; padding: 0 6px; }
+.out_box{ border:1px solid #ccc; background:#fff; font:12px/20px Tahoma; }
+.list_box{ border-bottom:1px solid #eee; padding:0 5px; cursor:pointer;line-height: 30px; }
+.focus_box{ background:#FAE5EA;line-height: 30px; }
+.mark_box{ color:#c00; }
+
+
+/*联合登录*/
+.allyMain{ width:806px; margin:40px auto 0 auto; overflow:hidden; font-size:14px;}
+.allyName{ height:26px; line-height:26px; font-size:14px;  padding:7px 0; color:#000; border-bottom:1px dashed #A49EA0; margin-bottom:20px;}
+.allyBinding{ line-height:20px; padding-top:18px; padding-bottom:18px;}
+.allyCon{width:336px; float:left; border:1px solid #E0D0D3; background:#FFF; position:relative; font-family:"微软雅黑";}
+.allyConTit{ height:42px; background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/ally_r2_c2.jpg) repeat-x; color:#FFF; line-height:42px; text-align:center; font-weight:normal; font-size:14px;}
+.allyMainCon{overflow:hidden; padding-top:40px;}
+.allyConBox{ padding:40px 0 20px 30px; overflow:hidden; height: 270px;}
+.allyBoxError{width:270px;height:26px; text-align:right; padding-left:2px;line-height:26px;color:#D93246; margin-bottom:15px; margin-top:3px;}
+.left{ float:left;}
+.allyBlue{ color:#2C62CC; text-decoration:none;}
+.allyBlue:hover{ text-decoration:underline;}
+.boxClose{ width:18px;height:17px; background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/ally_icon.png?06) -11px -90px no-repeat; position:absolute;right:7px;top:9px;z-index:5; cursor:pointer;}
+.allyButton{ clear:both; background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/ally_button.png) no-repeat; width:141px;height:38px;text-align:center; line-height:38px; display:block; border: none; color:#FFFDFF; text-decoration:none; font-size: 14px;}
+.allyButton:hover{ background-position:0px -42px; text-decoration:underline;}
+.allConRight{ margin-left:130px;}
+.allConRight .allyConTit{background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/ally_r2_c4.jpg) repeat-x; color:#333333;}
+.allyShop{ clear:both; text-align:right; height:32px; line-height:32px; padding:10px 0; font-size:14px; font-family:"微软雅黑";}
+.allyShop a{ color:#C7002E;}
+.allyNameIcon{display:inline-block; float:left; background:url(http://img.aimer.com.cn/theme/2012spring/images/login_new/ally_icon.png?06) no-repeat;}
+.allyName .sina{  width:45px; height:25px; background-position:-57px -8px;}
+.allyName .wangyi{width:45px; height:25px; background-position:-5px -9px;}
+.allyName .zfb{width:96px; height:25px; background-position:-5px -46px;}
+.allyName .qq{width:40px; height:26px; background-position:-58px -118px;}

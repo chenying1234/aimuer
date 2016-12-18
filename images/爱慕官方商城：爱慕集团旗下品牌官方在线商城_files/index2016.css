@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+html{ font-family:"微软雅黑"; font-size:62.5%;}
+/*轮播下活动入口*/
+.activeEnt{ width:1190px; margin:0 auto; padding:7px 0; overflow:hidden;}
+.activeEntIg{ width:85%; float:right;}
+.activeEntIg a{ float:left; width:24%; margin-left:1%; float:left; position:relative; overflow:hidden}
+.activeEntIg img{ width:100%;}
+.EntAccount{ position:absolute; top:0; right:-20px;}
+/*品牌Logo*/
+.indexBan {width: 1190px; margin: 0 auto; overflow:hidden}
+.indBrand{ width:1190px; margin:0px auto; background: url(../images/index_ent_banner.jpg) #FFF no-repeat; overflow:hidden}
+.indBrand dt{ width:22%; float:right; display: inline;}
+.indBrand dd{ width:10%; margin-right:3%; float:left; text-align:center; position:relative;line-height: 0px; display: inline;}
+.indBrand dt a{ display:none;}
+.indBrand .indBrandBk{ display:block}
+.indBrandTxt{ position:absolute; top:0px; left:0px; display:none}
+
+/*首页 Ccon*/
+.indCon{ width:1190px; margin:0 auto; overflow:hidden;}
+.indTitle{ width:100%; height:70px; line-height:70px;font-family:"微软雅黑"; font-size:2.4rem;_font-size:24px; font-weight:700;  color:#000; clear:both; overflow: hidden;}
+.indTitle p{ float: left;}
+.indTitleEn{ font-size:1.8rem;_font-size:18px; padding-left:8px; font-family:Arial, Helvetica, sans-serif;}
+.indTitLine{background:#000; height:1px; overflow:hidden; width:975px; float:right; margin-top:43px;}
+.indRecom{ width:100%; overflow:hidden}
+.indRecom li{ margin-bottom:30px;}
+.indRecomA{ float:left; width:50%;}
+.indRecomB{ width:44%; padding:20px 0px; box-sizing:border-box; float:right!important;}
+.indRecomC{ float:left; width:40%; display:block;}
+.indRecomD{ width:55%; float:right!important;}
+.indRecomE{ width:92%; margin:0 auto;}
+.indLecture{ width:100%;overflow:hidden}
+.indLecture a{ width:32%; float:left; margin-right:2%; display:inline-block;white-space: nowrap;}
+.indLectNoMg{ margin-right:0px!important;}
+
+.indVideo{ width:73%;_width:875px!important; float:left; overflow:hidden}
+.indVideoMore{ width:27%; _width:314px!important;float:right; color:#000; text-align:center; color:#000; font-family:"微软雅黑"}
+/*.videoTitle{ font-size:3.4rem; text-align:center; line-height:50px; font-weight:700;letter-spacing:5px;}
+.videoBubtit{ font-size:2.0rem; line-height:40px; font-weight:700;}
+.indVideoMore p{ text-align:center; font-size:1.6rem; line-height:24px; padding:0px 13%;box-sizing:border-box;letter-spacing:1px; display: block; overflow: hidden; width: 100%}
+.indVideoMoTxt{ width:74%; border-top:1px solid #000; margin:23% auto 0; font-weight:700; padding-top:20px; color:#df0a2d; display:block; text-align:right}*/
+
+
+
+
+
+
+@media (max-width: 1189px){
+	.activeEnt, .indBrand, .indCon { width:990px;}
+        .indBotUL li{padding: 35px 2.9%}
+	}

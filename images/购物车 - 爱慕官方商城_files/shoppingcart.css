@@ -1,0 +1,111 @@
+/* CSS Document */
+.shoppingcartCantant{width:986px; overflow:hidden; border:1px solid #6d6d6d;}
+.shoppingcartImg{ padding-bottom:10px; padding-top:20px;}
+.shoppingcartTitle{ list-style:none; background-color:#635958;  height:35px; }
+.shoppingcartTitle li{ float:left; height:35px; line-height:35px; color:#FFF; }
+.shoppingcartCantant .row1, .rows1{ width:130px; padding-left:25px;}
+.shoppingcartCantant .row2, .rows2{ width:430px;}
+.shoppingcartCantant .row3, .rows3{ width:80px; text-align:center; }
+.shoppingcartCantant .row4, .rows4{ width:50px; text-align:center;}
+.shoppingcartCantant .row5, .rows5{ width:75px; text-align:center;}
+.shoppingcartCantant .row6, .rows6{ width:80px; text-align:center;}
+.shoppingcartCantant .row7, .rows7{ width:80px; text-align:center;}
+.shoppingcartCantant .row8, .rows8{ width:40px; text-align:center;}
+.shoppingcartSpread{ overflow:hidden; }
+.shoppingcartList{ border-bottom:1px solid #d1d1d1;  height:70px;}
+.shoppingcartList li{ float:left; padding-top:5px; }
+.shoppingcartList li input{ border:1px solid #7f9db9; text-align:center; width:20px; height:14px; line-height:14px;}
+.shoppingcartList .rows5{ padding-top:27px;}
+.rows2, .rows3, .rows4, .rows6, .rows7, .rows8{line-height:60px; }
+.shoppingcartTip{ height:55px; line-height:55px; border-bottom:1px solid #d1d1d1;}
+.shoppingcartTip .shopTip1{ width:640px; padding-left:20px; float:left;}
+.shoppingcartTip .shopTip2{ float:left;}
+.cartButton{ height:50px; padding-right:50px;}
+.cartButtonH1{ padding-top:13px; display:block; float:right;}
+.cartButtonH2{ float:right; display:block; padding-top:8px; padding-left:20px;}
+
+.giftTitle{ height:30px; background-color:#990000; font-size:18px; font-weight:bold; color:#FFF; text-align:center; line-height:30px;}
+.giftSow li{ float:left;}
+.sow1, .sows1{ width:80px; padding-left:25px;}
+.sow2, .sows2{ width:220px; text-align:center;}
+.sow3, .sows3{ width:260px; padding-left:10px;}
+.sow4, .sows4{ width:190px;}
+.sow5, .sows5{ width:50px; text-align:center;}
+
+.giftInfor{ overflow:hidden;}
+.giftSow{ padding-top:5px}
+.giftSow .sows2{ padding-top:5px;}
+.giftSow .sows3 ul li{ float:left; width:45px; list-style:none; height:28px; padding-top:5px;}
+.giftSow .sows3 li a{ padding:1px;  border:1px solid #000; display:block; width:32px;}
+.giftSow .sows3 li a:hover{ border:2px solid #9b0812;}
+.giftSow .sows3 .color_on a{ border:2px solid #9b0812; }
+.sows4 ul li{ float:none; line-height:22px;}
+.sows4 ul .giftCm{ height:25px;}
+.sows4 ul .giftCm a{ float:left; display:block; width:30px; height:20px; line-height:20px; text-align:center; border:1px solid #336699; background:#FFF;margin:1px;}
+.sows4 ul .giftCm a:hover{ background:#fe9090; border:2px solid #9b0812; color:#000;margin:0px}
+.sows4 ul .giftCm .size_on{ background:#fe9090; border:2px solid #9b0812; color:#000;margin:0px }
+.sows5{ padding-top:10px;}
+.sows6{ padding-top:20px; padding-left:20px;}
+/*end*/
+
+.cartTop{ overflow:hidden; margin: 0 auto; border-bottom:1px solid #8E8D9F; padding:10px 0px; width: 988px;}
+.giftsTitle{ width:968px; height:36px; background-color:#C8002E; color:#FFF; font-weight:bold; font-size:14px; padding-left:20px; line-height:36px; margin-top:22px;}
+.white{ color:#FFF;}
+.giftsContent td{ padding:20px 0px;}
+.showtextcolor { clear: both;overflow: hidden; width: 140px; padding-left:23px;}
+.showtextcolor li {float:left; }
+.showtextcolor a{ border:1px solid #D4D4D4; display:block; padding:1px; float:left; margin:0 7px 3px 0;}
+.showtextcolor a:hover{border-color:#D40C19; padding:0; border:2px solid #D40C19;}
+.showtextcolor  .color_on a{border-color:#D40C19; padding:0; border:2px solid #D40C19;}
+.showtextsize{width:160px; overflow:hidden; padding-left:25px;}
+.showtextsize a{ display:block; float:left; height:20px; line-height:20px; background:#EBEBEB; color:#000; margin:5px 7px 3px 0; width:30px; text-align:center;}
+.showtextsize a:hover{ background-color:#D30B18; color:#FFF;}
+.showtextsize a.size_empty:hover{ background:none; color:#000;}
+.showtextsize .showtextsizeno{ background-color:#f3f3f3; color:#a0a0a0; cursor:default;}
+.showtextsize .showtextsizeno:hover{ background-color:#f3f3f3; color:#a0a0a0;}
+.showtextsize .showtextsizesele{background-color:#D30B18; color:#FFF;}
+.showtextsize .size_on{background-color:#D30B18; color:#FFF;}
+.showtextsize .showtextlink{ float:right; width:80px;}
+.cartGifts{ width:986px; overflow:hidden; border:1px solid #635958;}
+.cartGiftsNav{ background-color:#635958;  width:936px; height:36px; padding-left:50px; font-size:14px; font-weight:bold;}
+.cartGiftsNav a{ display:block; padding:0 25px; height:34px; line-height:34px; margin-top:2px; float:left; color:#fff;}
+.cartGiftsNav a:hover{ background-color:#F5F5F5; color:#D30B18;}
+.cartGiftsNav .giftsChecked{background-color:#F5F5F5; color:#D30B18;}
+
+.cartTabtr{ display:block; overflow:hidden; position:relative; width:100%;  background-color:#F5F5F5; }
+/*.cartMiddle .indexshopimg{ position:static;}*/
+.cartLeft{ height:125px; float:left;  background:url(http://img.aimer.com.cn/theme/2012spring/images/cartBut.jpg) 0 -125px; no-repeat; position:absolute; top:80px; left:0px; width:33px;}
+/*.iordertableft:hover{background-position:0px -33px;}*/
+.cartRight{ height:125px; float:left;  background:url(http://img.aimer.com.cn/theme/2012spring/images/cartBut.jpg) -33px -125px no-repeat; position:absolute; top:80px; right:0px; width:33px;}
+/*.iordertabright:hover{background-position:0px -99px;}*/
+/*.cartMiddle{ width:658px; overflow:hidden; margin:0 auto;}*/
+.iordertabico_1{ background-position:0px 0px;}
+.iordertabico_3{ background-position:-33px 0px;}
+
+
+.v_content { position:relative; width:897px; height:280px; overflow:hidden;  margin-left:45px;  }
+.cartMiddle { position:absolute; width:99999px; top:0px; left:0px; height:250px;}
+.cartMiddle .indexshopimg a{ display:block; padding:1px; border:1px solid #D9D9D9; background-color:#FFF;}
+.cartMiddle .indexshopimg a:hover{ border-color:#D30B18;}
+.cartMiddle ul { padding-top:30px; width:auto; display:inline-block; overflow:hidden}
+.cartMiddle ul li {display:block; float: left; height:230px;overflow: hidden; padding:10px; width:159px;}
+.cartMiddle ul li p {clear: both; color:#000; line-height: 16px;}
+.cartMiddle ul li p.name {color:#7A7A7A; padding-top:12px; height: 18px;line-height:18px; overflow: hidden; font-size:12px; white-space: normal; width: 150px;}
+.cartMiddle ul li .original{ padding-top:6px;}
+.cartMiddle ul li .original span{ color:#D30B18; font-weight:bold;}
+.cartMiddle .cattie05{ padding-right:0;}
+.change_btn{float:left; margin:7px 0 0 10px;}
+
+.cartProduct{width:137px; float:left; height:250px;}
+.cartRightInput{width:15px; margin-left:6px; *margin-left:2px; float:left; padding-top:85px;}
+.cartListFont{float: left; height:24px; line-height:24px; padding:0 5px;}
+.cartInfor{ width:926px; clear:both; background-color:#FFF; padding:30px 0 30px 60px; overflow:hidden;}
+.cartInforList{ float:left;}
+.cartInforList .showtextcolor{ width:auto!important; clear:both; padding-left:0px;}
+.cartInforList .showtextsize{ width:auto!important; clear:both; margin-top:10px; padding-left:0px;}
+.showtextsize .cartListFont{float: left; height:24px; line-height:24px; padding:5px 5px 0 5px; text-align:left;}
+.cartInforBut{ padding-top:27px; padding-left:30px; float:left;}
+.cartMiddleLi{ background-color:#fff;}
+.spec_value a img{ width:32px; height: 18px;}
+
+.carCC04{ position:absolute; top:1px; right:4px; display:block; width:15px; height:17px; text-align:center;}

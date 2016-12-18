@@ -1,0 +1,18 @@
+(function(){function getQueryString(name){var reg=new RegExp('(^|&)'+name+'=([^&]*)(&|$)','i');var r=window.location.search.substr(1).match(reg);if(r!=null){return unescape(r[2]);}
+else{return null;}}
+function getRootDomain(domains){var rootDomain='';var domainArray=['com','net','org','gov','edu'];var domainsArraySplit=domains.split('.');var domainCount=domainsArraySplit.length-1;var flag=false;if(domainsArraySplit[domainCount]=='cn'){var len=domainArray.length;for(i=0;i<len;i++){if(domainsArraySplit[domainCount-1]==domainArray[i]){flag=true;break;}}
+if(flag==true){rootDomain=domainsArraySplit[domainCount-2]+'.'+domainsArraySplit[domainCount-1]+'.'+domainsArraySplit[domainCount];}
+else{rootDomain=domainsArraySplit[domainCount-1]+'.'+domainsArraySplit[domainCount];}}
+else{rootDomain=domainsArraySplit[domainCount-1]+'.'+domainsArraySplit[domainCount];}
+return rootDomain;}
+String.prototype.getCookie=function()
+{var re=new RegExp('\\b'+this+'\\s*=\\s*([^;]*)','i');var match=re.exec(document.cookie);return(match&&match.length>1?unescape(match[1]):'');};String.prototype.setCookie=function(value,expiryDays,domain,path,secure)
+{var builder=[this,"=",escape(value)];if(expiryDays)
+{var date=new Date();date.setTime(date.getTime()+(expiryDays*86400000));builder.push(";expires=");builder.push(date.toUTCString());}
+if(domain)
+{builder.push(";domain=");builder.push(domain);}
+if(path)
+{builder.push(";path=");builder.push(path);}
+if(secure){builder.push(";secure");}
+document.cookie=builder.join("");};var userid='fl_userid'.getCookie();if(!!userid){var img=new Image();img.src='http://huodong.fanli.com/shoptask/finish?userid='+userid+'&'+_fanli.join('&').replace(/,/g,'=');}
+else{var rootDomain=getRootDomain(document.domain);userid=getQueryString('fl_userid');if(userid!=null){'fl_userid'.setCookie(userid,'',rootDomain,'/');}}})();

@@ -1,0 +1,265 @@
+@charset "utf-8";
+/* CSS Document */
+.font16{ font-size:18px;}
+.font22{ font-size:25px!important;}
+.c988{ width:988px; margin:0 auto; overflow:hidden; clear:both; color:#000;}
+.cFont14{ font-size:14px; font-family:"微软雅黑";}
+/*购物车顶部 LOGO*/
+.carSeles select{ margin-right: 10px; float: left; height: 22px; line-height: 22px;}
+.carLogo{ width:988px; margin:0 auto; overflow:hidden; margin-bottom:10px; margin-top:5px;}
+.carIcon, .carFailure, .carCUlDdGou, .carCUlNo, .carCUBut01, .carCUBut02, .carIocnTel, .carIocnService, .carCUJt, .carCUJt02, .carJsBut, .carCnIocn01, .carCnIocn02, .carCnIocn03, .carCneeGou,.carAddMoreAdd, .carAddMoreAdd03, .carLookConponbj, .carLookuse, .carCouClose, .carCouSele, .botAddInfoBut, .carTkSaveAddImg{ background:url(../images/car_icon.png?{%$IMAGE_VERSION%}) no-repeat;}
+.headerCar{ padding-top:25px;}
+.headerCar li{ font-size:14px; font-family:"微软雅黑";}
+.headerCar li a{ font-weight:normal;}
+.headerCar li .track{ font-weight:bold; padding-right:5px;}
+.carHeaderTel{ padding-left:32px!important;}
+.carHeaderTel .carIocnTel{ display:block; width:13px; height:13px; background-position:-80px 0px; position:absolute; top:9px; left:13px;}
+.carIocnService{display:block; width:16px; height:16px; background-position:-104px 0px; position:absolute; top:9px; left:13px;}
+
+/*购物进度导航*/
+.carNav{ margin-bottom:10px;}
+.carNav li{ background:url(../images/car_nav.jpg) no-repeat; height:45px; float:left; display:block;}
+.carNav .cN01{ width:210px; background-position:0px -55px;}
+.carNav .cN02{ width:228px; background-position:-210px 0px;}
+.carNav .cN03{ width:207px; background-position:-438px 0px;}
+
+.carNav .cN01_1{ width:210px; background-position:0px 0px;}
+.carNav .cN02_1{ width:228px; background-position:-210px -55px;}
+.carNav .cN03_1{ width:207px; background-position:-438px -55px;}
+/*购物车内容*/
+.carBar{ text-align:right; line-height:24px; margin-bottom:5px;}
+.carBarBut{ display:inline-block; width:64px; height:28px; background:url(http://img.aimer.com.cn/theme/2012spring/images/car_icon.png) 0px -169px no-repeat; margin-left:10px; vertical-align:middle; line-height:24px;}
+	/*无法结算灰色按钮*/
+.carBarBut02{ background-position:0px -139px; cursor:auto;}
+	/*购物车信息*/
+.nogoods{padding:20px 0px;font-size:20px;color:red;}
+.carTitle{ background:url(http://img.aimer.com.cn/theme/2012spring/images/car_listbj.jpg) repeat-x; font-size:14px;}
+.carFailure{ width:35px; height:16px; background-position:-224px 0px;}
+.carTitleInput{ font-size:16px;  margin-top:3px; *margin-top:0px; margin-left:10px;}
+.carUndo{ width:auto; border:1px solid #DE5F7C; height:30px; line-height:30px; background-color:#FDF7F9; padding-left:16px; margin-top:1px;}
+.carContent{ width:988px; border-top:1px solid #828282; border-bottom:0px; margin-top:5px; height:auto; color:#000;}
+.carContent li{ width:986; border:1px solid #828282; border-top:0px; height:auto;}
+.carCImg{ width:51px; height:64px;}
+.carCName{ padding-left:20px; padding-right:5px; line-height:20px;color:#000000; text-align: left;}
+.carCName a{color:#000000;}
+.carCName a:hover{color:#C30E39;}
+.carCColour{ position:relative; width:166px; height:90px; z-index:55;}
+.carCColour02{ position:absolute; top:-1px; *top:0px; left:-0px; *left:1px; width:166px; height:92px;}
+.carCColour02 .carCColour03{ border:1px dashed #6D6B6C; width:164px; height:90px; *height:92px; padding-left:0px;}
+.carCColour03{ width:166px; height:90px; padding-left:0px;}
+.carCColour03 p{ padding-top:25px; text-align: left; padding-left: 10px; width: 130px; margin: 0 auto;}
+.carCC03{ position:absolute; top:0px; right:0px; display:block; width:32px; height:17px; background-color:#6D6D6D; color:#FFF; font-size:12px; text-align:center; line-height:17px; display:none;}
+.carCColour02 .carCC03{ display:block;}
+.carCC03:hover{ color:#FFF;}
+.proMemo{text-align:right; border-top:1px solid #888; padding:10px 0; line-height:24px; padding-right:20px;}
+.carBgColor{background-color:#FFFFFF;}
+.carBgColor01{background-color:#F9E0E6;}
+.carBgColor02{background-color:#F4F4F4;}
+.carCSuitName01{height:65px; padding-top:25px;}
+
+/*弹框 颜色/尺码*/
+.carConSize{ width:320px; height:auto; border:1px solid #E4E4E4; position:absolute;display:none; top:360px; left:40.3%; z-index:10000; background-color:#FFF; font-size:14px; font-family:"微软雅黑"; color:#000;}
+.carConSizeUl{ padding:30px 0px 20px 15px; clear:both; height:auto; position: relative;}
+.carSizeUlLoadding{ position: absolute; top: 0px; left: 0px; text-align: center; width: 220px; background-color: #fff; padding: 100px 0 100px 100px; z-index: 66;}
+.carSizeUlLoadding em{ float: left; padding-top: 5px; padding-left: 10px;}
+.carConSizeUl dl{ overflow:hidden; clear:both; margin-bottom:10px;}
+.carConSizeUl dt{ float:left; height:28px; line-height:28px; width:50px; text-align:left;}
+.carCUlDd{ float:left; width:255px;}
+.carCUlDd a {border: 1px solid #D4D4D4; display:inline-block; padding:1px;  position:relative; margin-right: 5px; margin-bottom: 5px;}
+.carCUlDd a img{ width:41px; height:24px;}
+.carCUlDd .swtxclick { border: 2px solid #D40C19; padding: 0;}
+.carCUlSize{ float:left; width:255px; padding-top:3px;}
+.carCUlSize a{ position:relative; width:50px; height:20px; border:1px solid #D4D4D4; margin: 0 7px 5px 0; padding:1px; background-color:#FFF; text-align:center; line-height:20px; color:#000; font-size:12px; display:inline-block;}
+.carCUlSize .carCUlSelected{ border:2px solid #C8002E; padding:0px;}
+.carCUlDdGou{ display:block; width:12px; height:12px; overflow:hidden; position:absolute; bottom:0px; right:0px; background-position:0px 0px;}
+.carCUlNo{ background-position:-163px 1px; cursor:default; background-color:#EAEAEA;}
+.carCUBut{ width:100%; text-align:center; margin-top:17px;}
+.carCUBut01{ display:inline-block; width:41px; height:21px; background-position:0px -85px; margin-right:10px;}
+.carCUBut02{ display:inline-block; width:41px; height:21px; background-position:0px -112px;}
+.carCUJt{ position:absolute; display:block; width:16px; height:19px; top:-10px; left:35px; background-position:-133px 0px; overflow:hidden;}
+.pointers{ cursor:pointer;}
+.inputNumber{ font-size:12px; text-align:center;width:30px;}
+
+/*删除弹框*/
+.tkDelete{ width:148px; padding:20px 20px; text-align:center; border:1px solid #CCCCCC; height:auto; position:absolute; display: none;z-index: 10000;background-color: #fff;}
+.tkDelete p{ padding:5px 0 10px 0; font-family:"微软雅黑";font-size:14px;color:#000000;}
+.carCUJt02{position:absolute; display:block; width:16px; height:19px; top:-10px; right:35px; background-position:-133px 0px; overflow:hidden;}
+
+/*动态导航结算列表*/
+.carShiftListCon{ width:988px; clear:both; margin-top:15px;}
+.carShiftList{ width:986px; border:1px solid #848484; overflow:hidden; background-color:#E9E7E8; z-index:500; position:relative;}
+.carJsBut{ display:block; width:127px; height:41px;  background-position:0px -221px}
+.carJsBut02{ background-position:0px -267px;}
+.carJsBut03{ background-position:0px -313px;}
+
+/*产品列表 感兴趣的宝贝/最近浏览的宝贝*/
+.carGoods{ width:100%; overflow:hidden; margin-top:27px; background:url(http://img.aimer.com.cn/theme/2012spring/images/tab.jpg) repeat-x bottom left;}
+.carGoods li{ float:left; height:34px; line-height:34px; padding:0 16px; background-color:#E7E7E7; border:1px solid #AEAEAE; margin-right:5px; border:1px solid #B8B8B8; cursor:pointer;}
+.carGoods li a{font-size:14px; color:#000; font-family:"微软雅黑";}
+.carGoods .carGoodsClick{ border-bottom:1px solid #FFF; background-color:#FFF;}
+.carYc{ display:none;}
+
+
+/*~~~~~~~~~~页面2  确定订单信息~~~~~~~~~~~~~~~~*/
+.carCnee{ width:986px; margin:25px auto 0px auto; border:1px solid #C8C8C8; overflow:hidden; font-size:14px; color:#000; font-family:"微软雅黑"; }
+.carCneeLoading{  width: 270px; padding: 100px 0px 100px 400px; font-family:"微软雅黑";  font-size:14px; color:#000;}
+.carLoadName{ float:left; padding-top: 5px; padding-left: 10px; display:block; width:220px;}
+.carCneeTitle{ height:35px; line-height:35px; padding-left:20px; background-color:#F6F2F1; color:#817F80; font-size:14px;}
+.carCneeInfor{padding-left:17px; overflow:hidden; clear:both;}
+.carCneeInfor li{ position:relative; overflow:hidden; float:left; margin-right:20px; margin-top:20px; border:1px solid #E8E8E8; padding:1px 8px; width:285px; height:165px; background-color:#FCFAFB;}
+	/*名字*/
+.carCneeIName{ height:28px; padding-left:21px; width:264px; position:relative; padding-top:18px; border-bottom:1px dashed #FCFAFB;}
+.carCnIocn01{ position:absolute; top:23px; left:5px; display:block; width:9px; height:12px; background-position:-23px 0px;}
+.carCnSzAdd{ position:absolute; right:9px; top:17px; color:#999999;}
+	/*地址*/
+.carCneeAdd{ padding-left:21px; width:264px; position:relative; padding-top:10px; padding-bottom:8px; border-bottom:1px dashed #FCFAFB; height:60px; line-height:21px; *line-height:22px; overflow:hidden; text-overflow:ellipsis;}
+.carCnIocn02{position:absolute; top:16px; left:5px; display:block; width:9px; height:12px; background-position:-41px 0px;}
+	/*手机 、修改删除*/
+.carCneePhone{ height:33px; line-height:33px; padding-left:21px; width:264px; position:relative;}
+.carCnIocn03{position:absolute; top:12px; left:5px; display:block; width:9px; height:12px; background-position:-61px 0px;}
+.carCPA{ position:absolute; right:0px; top:0px; display:none;}
+.carCPA a{margin-right:15px; color:#DD627E;}
+
+
+	/*当选中地址的时候*/
+.carCneeInfor .carCneeSe{ border:2px solid #C9002C; padding:0px 7px; background-color:#FDF7F9;}
+.carCneeInfor .carCneeSeHover{ border:2px solid #F9C5D2; padding:0px 7px; background-color:#FDF7F9;}
+.carCneeInfor .carCneeSeHover .carCPA{ display:block;}
+.carCneeInfor .carCneeSe .carCneeGou{ display:block; position:absolute; bottom:0px; right:0px; _bottom:-1px; _right:-1px; width:23px; height:23px; background-position:0px -18px;}
+.carCneeInfor .carCneeSe .carCnSzAdd{ color:#DE637F;}
+.carCneeInfor .carCneeSe .carCPA{ display:block;}
+.carCneeInfor .carCneeSe .carCneeIName{ border-color:#CAC6C7;}
+.carCneeInfor .carCneeSe .carCneeAdd{ border-color:#CAC6C7;}
+
+	/*添加地址效果*/
+.carCneeInfor .carAddAddress{ border:1px dotted #E47E96; background-color:#FFF;}
+.carAddressNew{ text-align:center; padding-top:47px;}
+.carAddressNew span img{ filter:alpha(Opacity=50);-moz-opacity:0.5;opacity: 0.5;}
+.carAddressNew p{ padding-top:3px; line-height:18px; color:#E16780;}
+.carCneeInfor .carAddAddress02{ border:1px solid #C8002E; background-color:#FFF;}
+.carAddAddress02 .carAddressNew span img{ filter:alpha(Opacity=100);-moz-opacity:1;opacity: 1;}
+.carAddAddress02 .carAddressNew p{ padding-top:3px; line-height:18px; color:#C8002E;}
+
+	/*查看更多*/
+.carAddMore{padding-left:10px; margin-top:20px; overflow:hidden; clear:both; margin-bottom:24px;}
+.carAddMore a{padding-left:15px; margin-right:15px; position:relative; color:#000; line-height:22px; display:block; float:left; height:22px;}
+.carAddMoreAdd{ position:absolute; display:block; width:9px; height:5px; background-position:0px -45px; top:9px; left:0; _overflow:hidden;}
+.carAddMoreAdd03{ position:absolute; display:block; width:10px; height:10px; background-position:-24px -47px; top:7px; left:0; _overflow:hidden;}
+.carAddMoreAdd02{ background-position:0px -54px!important;}
+
+	/*支付方式*/
+.carCneeContant{ padding:36px 0 24px 43px; overflow:hidden; width:848px;}
+.carCneeYh{ height:38px; line-height:38px; vertical-align:middle; clear:both;}
+.carCneeYhBj{ background:url(http://img.aimer.com.cn/theme/2012spring/images/tab.jpg) left bottom repeat-x;}
+.carCneeYh input{vertical-align:text-bottom; margin-bottom:2px; *margin-bottom:-1px;}
+.carCneeOnBank{ float:right; display:block; position:relative; width:151px; color:#000; height:37px; margin-right:32px; line-height:32px; background-color:#FFF; border:1px solid #FFF; border-bottom:0px; text-align:center;}
+.carCneeOnBank em{display:block; width:90px; height:8px; position:absolute; overflow:hidden; top:27px; left:30px; background:url(http://img.aimer.com.cn/theme/2012spring/images/car_icon.png) -181px -159px;}
+.carCOB02{ border-color:#AEAEAE; background-color:#FBFBFB; color:#CA002C;}
+.carCOB02 em{ display:block; width:90px; height:8px; position:absolute; overflow:hidden; top:27px; left:30px; background:url(http://img.aimer.com.cn/theme/2012spring/images/car_icon.png) -181px -174px; no-repeat;}
+.carCneeYhWz{ float:left; _padding-top:9px; font-weight:bold;}
+.carCneeYhWz span{  padding-left:10px; font-weight:normal;}
+.carCneeBank{ width:823px; overflow:hidden; background-color:#FBFBFB; padding:20px 0px 20px 23px; border:1px solid #AEAEAE; border-top:0px; margin-bottom:20px;}
+.carCneeBankXz li{ float:left; padding-right:30px; color:#000; font-weight:bold;}
+.carCneeBankXz li input{vertical-align:text-bottom; margin-bottom:2px; *margin-bottom:-1px;}
+.carCneeBankImg{ clear:both; overflow:hidden;}
+.carCneeBankImg li{ float:left; margin-top:20px; margin-right:42px;}
+.carCneeBankImg li img{ width:93px; height:20px; border:1px solid #DDDFDE;}
+.carpaytypehide{display:none;}
+.bankswen {height: 20px; line-height: 20px; overflow: hidden; padding-top: 30px; width: 100%; clear:both;}
+.bankswenKt{ margin-left: 20px;}
+	/*商品信息*/
+ .carBlack{ color:#000000;}
+.carCneeBack{ color:#C7002D; margin-left:30px; font-size:12px;}
+.carCneeShop{ height:auto; padding:16px 0px 0 20px;}
+.carCneeShopTitle{height:30px; line-height:30px;}
+.carCneeShopTitle div{ text-align:center;}
+.carCSTImg{width:85px;}
+.carCSTName{width:250px;}
+.carCSTSize{width:190px;}
+.carCSTPrice{width:90px;}
+.carCSTNum{width:130px;}
+.carCSTSub{width:100px;}
+.carCneeShopCon{ width:945px; overflow:hidden; border-bottom:1px solid #D7D7D7; text-align:center;}
+.carCneeShopCon li{ background:url(http://img.aimer.com.cn/theme/2012spring/images/dashed.jpg) top left repeat-x; overflow:hidden; padding:12px 0; clear:both; overflow:hidden; width:100%;}
+.carCneeShopCon li div em{ padding-top:10px; display:block; line-height:18px;}
+.carCSTName02{width:190px; text-align:left; padding:0 30px;}
+.carCSTSize02{width:120px; text-align:left; padding:0 35px;}
+.carOrderYhjSm{ clear:both; padding-top:5px; padding-left:15px; font-size:14px;font-color:#000000;}
+.carCouTableHHNo2{width:617px; overflow:hidden; margin-bottom:13px;}
+.carCneeShopCon .carCSTSuitLi{ padding-bottom:0px;}
+.carCSTSuit{ height:64px; padding-bottom:12px;}
+
+	/*订单信息*/
+.carCneeOrder{ width:100%; overflow:hidden;}
+.carOrderLeft{ float:left; overflow:hidden; width:685px;}
+.carOrderTL{ margin-left:15px; overflow:hidden; border-bottom:1px solid #D7D7D7; padding-bottom:24px;}
+.carOrderTL02{margin-left:15px; overflow:hidden;}
+.carOrderTitle{ height:44px; line-height:44px; padding-top:6px; font-weight:bold;}
+.carOrderMess{ width:258px; height:24px; line-height:24px; font-size:12px;}
+.carGray{ color:#808080;}
+.carLookConpon{padding-left:15px; position:relative; margin-right:10px; float:left; padding-top:3px; color:#353535;}
+.carLookConponbj{ display:block; position:absolute; top:11px; left:0px; width:9px; height:5px; background-position:0px -54px; overflow:hidden;}
+.carLookInput{width:180px; height:24px; line-height:24px; padding:0px 1px; font-size:12px;}
+.carLookuse{ float:left; display:block; width:80px; height:25px; background-position:0px -361px; margin-left:15px; margin-bottom:15px;}
+.carLooktable{ width:624px; overflow:hidden; padding-bottom:18px; clear:both; border:1px solid #DFD3D7; background-color:#FDF7F9; padding-left:20px; position:relative;}
+.carCouClose{ display:block; width:18px; height:18px; border:1px solid #FAE5EA; position:absolute; right:8px; top:7px; cursor:pointer; background-position:-37px -23px;}
+.carCouTitle{height:44px; line-height:44px; padding-top:2px; font-weight:bold;}
+.carCouTable{border-collapse:collapse; font-size:12px;}
+.carCouTableHH{ height:188px; overflow:auto; width:617px; margin-bottom:13px;}
+.carCouTable tr{ background-color:#FFF;}
+.carCouTable td{empty-cells:show;  border:1px solid #E1DDDE; text-align:center; vertical-align:middle;}
+.carCouTable .carCouTableTr{ background:url(http://img.aimer.com.cn/theme/2012spring/images/car_table_bj.jpg) repeat-x; font-size:14px;}
+.carCouTabNum{ text-align:left; padding-left:15px; font-family:Arial, Helvetica, sans-serif;}
+.carCouTabNum input{ margin-right:8px; vertical-align:text-bottom; margin-bottom:1px; *margin-bottom:-2px;}
+.carCouSele{ display:block; width:80px; height:25px; background-position:0px -392px; margin-left:20px; margin-bottom:2px;}
+.carOrderJt12{ float:left; padding-top:2px;}
+.carLClick{background-position:-101px -361px;}
+
+.carOrderRight{ float:left; width:281px; height:260px; background-color:#FDF7F9; position:relative;}
+.carRightStat{ width:280px; position:absolute; left:0px; bottom:0px; padding-top:20px; height:240px;}
+.carRightStat li{ overflow:hidden; margin-bottom:10px; *margin-bottom:8px; _margin-bottom:13px;  line-height:20px; clear:both;}
+.carRStarName{ width:120px; text-align:right; float:left;}
+.carRStarNume{ width:130px; text-align:left; float:left; padding-left:30px; padding-top:4px;}
+.carRightStatLi{ padding-top:18px;}
+.carRightStatLi .carRStarName{ padding-top:4px;}
+.carRSIntegral{ padding-left:35px; padding-top:5px; overflow:hidden; clear:both;}
+.font15{ font-size:15px;}
+.bottomAdd{ overflow:hidden; text-align:right;}
+.bottomAddInfo{ float:right; border:1px solid #C6012F; padding:3px; background-color:#EFCED9; }
+.botAddInfoCon{ height:auto; background-color:#FDF7F9; line-height:22px; padding:8px 15px;}
+.botAddInfoXG{ color:#D75F7A; margin-left:13px;}
+.botAddInfoBut{ display:block; clear:both; width:190px; height:52px; background-position:-81px -31px; float:right;}
+.carTextMemo{height: 60px;}
+.botAIBClick{background-position:0px -425px;}
+
+/*弹框地址*/
+.carTkAdd{ width:740px; position: relative; padding:15px 0px 20px 30px; text-align:left ; overflow:hidden;display:none; border:2px solid #C8002B; font-size:14px; font-family:"微软雅黑"; color:#000; background-color:#FFF;}
+.carTkAddH2{ font-weight:bold; font-size:15px; height:28px; line-height:28px; padding-bottom:5px; padding-left:12px;}
+.carTkAddDl{ width:740px; overflow:hidden; margin-bottom:12px; clear:both;}
+.carTkAddDl dt{ width:100px; float:left; overflow:hidden; line-height:22px; *padding-top:2px; text-align:right;}
+.carTkAddDl dd{ float:left; width:630px; overflow:hidden;}
+.carTkAddName{ width:132px; height:22px; font-size:12px; vertical-align: middle; font-family:"微软雅黑"; line-height:22px; border:1px solid #B2B2B2; padding:0 2px;}
+.carTkAddSelect{ float:left; height:22px; line-height:22px; border:1px solid #B2B2B2; margin-right:10px; }
+.carTkAddAddress{ height:22px; line-height:22px; width:281px;  border:1px solid #B2B2B2;}
+.carTkAddDetailAddress{ float:left; margin-left:10px;}
+.carTkAddZip{ float:left; margin-left:25px;}
+.carTkSaveAdd{ height:39px; line-height:39px; padding:5px 0 10px 100px;}
+.carTkSaveAddImg{ display:block; float:left; width:148px; height:39px; background-position:-123px -111px; margin-right:20px;}
+.carTkCanAdd{ color:#C8002B;}
+.red{color:red;font-size: 14px;font-weight: bolder;}
+
+.carCSuit01 {
+    height: 77px;
+    padding-top: 13px;
+}
+/*预售结算 */
+.orangePrice{ color:#FF8100; font-size: 24px;}
+.preSubmitBox{ float: right; clear: both; overflow: hidden; width: 100%; font-family:"微软雅黑";}
+.preSubmitBtn{ width: 180px; height: 50px; background: #A2A2A2; color: #fff; text-align:center; font-size: 20px; line-height: 50px; border-radius: 5px; display: block; float: right;}
+.preSubmitBtn:hover{ color: #fff;}
+.orangeBj{ background: #ff8416}
+.agreeCon{ height: 50px; float: right; padding-right: 15px; text-align: right; overflow: hidden }
+.agreeCon li{ overflow:hidden;}
+.agreePresale{ width: 14px; height: 14px; float: right; list-style: none; border: 1px solid #333; margin-top: 5px;}
+.agreeTxt{ color: #000; font-size: 14px; float: right; line-height: 24px; padding: 0px 3px;}
+.presaleWarn{width: 18px; height: 18px; background: url(../images/2016front/index/index16_icon.png?136); background-position: -258px -5px; float: right; margin-top:3px; display: inline-block;}

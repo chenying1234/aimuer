@@ -1,0 +1,133 @@
+
+
+/*banner*/
+#banner{
+	width: 100%; position: relative;
+}
+.banner{
+	width: 100%; margin: 0 auto; height: 485px; overflow: hidden;
+}
+.banner li{
+	position: absolute;left: 0; right: 0; height: 485px; display: none;
+}
+.banner a{
+	display:inline-block; width: 100%; height: 425px;
+}
+.clik{
+	 position: absolute;left: 50%;bottom: 10px; z-index: 11;
+}
+.clik-li{
+	background: #000; color: #fff; border-radius: 50%; float:left; width:20px; height: 20px; line-height: 20px;margin-left: 5px; text-align: center; cursor: pointer;  display: inline-block;
+}
+.banner-curr{
+	background: red;
+}
+.banner-left{
+	background: url(../images/icon_index.png) no-repeat -141px 0; width: 29px; height: 50px; opacity: 0.5; cursor: pointer; position: absolute;left: 0; top: 50%; z-index: 9;
+}
+.banner-right{
+	background: url(../images/icon_index.png) no-repeat -170px 0; width: 29px; height: 50px; opacity: 0.5; cursor: pointer; position: absolute;right: 0; top: 50%; z-index: 9;
+}
+
+/*hot-groom*/
+#hot-groom{
+	width: 1190px; margin: 5px auto 5px; overflow: hidden;
+}
+.hot-groom{
+	width: 85%; float: right; overflow: hidden;
+}
+#hot-groom a{
+	width: 24%; margin-left: 1%; position:relative; float: left; overflow: hidden;
+}
+#hot-groom img{
+	width: 100%;
+}
+.movepic{
+	position: absolute;right: -20px; top: 0; 
+}
+
+.style-pic{
+	width: 1190px; margin:0 auto; margin-top:11px ;
+}
+
+/*brand-list*/
+#brand-list{
+	width: 1190px; margin: 0 auto; overflow: hidden;
+}
+.big-pic{
+	float: right; width: 22%;text-align: center;display:inline;
+}
+
+.brand-show{
+	float: left; width: 10%; text-align: center; margin-right: 3%;display: inline; position: relative; line-height: 0;
+}
+.brand-txt{
+ position: absolute; left: 0; top: 0;display: none;
+}
+.recommend{
+	width: 100%; margin: 0 auto; height: 70px; line-height: 70px;
+}
+.recommend p{
+	float: left;
+	line-height: 70px;
+font-family: "微软雅黑";
+font-size: 22px;
+font-weight: 700;
+color: #000;
+}
+.en{
+	font-size: 18px;
+padding-left: 5px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.recommend  div{
+	float: left; border-bottom: 1px solid #000000; height: 0px;  width: 1023px; padding-top: 43px; margin-left: 15px;
+}
+.tuijian{
+	width: 100%; overflow: hidden;
+}
+.tuijian li{
+	 margin-bottom: 30px;
+}
+.indrecom1{
+	width: 50%; margin-top: 30px;float: left; 
+}
+.indrecom2{
+	width: 44%; margin-top: 30px;padding: 20px 0px;float: left;
+box-sizing: border-box;
+float: right !important;
+}
+.indrecom3{
+	width: 40%; display: block;float: left;
+}	
+.indrecom4{
+	width: 55%; float: right !important;float: left;
+}
+.indrecom5{
+	width: 92%; margin: 0 auto; display: block; 
+}
+
+.Lecture{
+	width: 100%; overflow: hidden;
+}
+.Lecture a{
+	width: 32%;float: left;margin-right: 2%;display: inline-block;white-space: nowrap;
+}
+.nomar{
+	margin: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

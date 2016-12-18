@@ -1,0 +1,194 @@
+body{
+	font-size: 14px; font-family: "微软雅黑";   
+}
+em,i{
+	font-style: normal;
+}
+.flclear{
+	clear: both;
+}
+.red{
+	color: red;
+}
+.navs-main{
+	display: none;
+}
+.jian-up-baise{
+	background:url(../images/index16_icon.png) no-repeat -203px -5px;position: absolute;left:120px ; top: 15px; height: 5px; width: 9px;
+}
+
+#goods-list{
+	width: 1190px; margin: 10px auto;
+}
+.list-nav{
+	border: 1px solid #000; margin-top: 20px; padding-top: 24px; 
+}
+.sure-list{
+	overflow: hidden;padding-left: 15px;
+}
+.sry{
+	font-weight: 100; float: left; font-size: 14px; 
+}
+.biaoqian{
+	 border: 1px solid #000; padding: 0 5px;
+}
+.del{
+	cursor: pointer; margin: 5px; 
+}
+
+.list-nav ul{
+	margin-top: 20px;
+}
+.list-nav li{
+	margin-top: 20px;padding-left: 15px; overflow: hidden;position: relative;
+}
+.borl{
+	 height: 0; border-bottom: 1px dashed #7A7A7A; padding: 0;
+}
+.flclear h3{
+	font-size: 14px; width: 86px;
+}
+
+.flclear a{
+	    width: 110px;margin-bottom: 3px;position: relative;padding-left: 20px;height: 26px;line-height: 26px;font-size: 13px;color: #000; display: inline-block;
+}
+
+.list-name{
+	width: 957px; 
+}
+.xz{
+	position: absolute; left: 0; background: url(../images/list_box.jpg) no-repeat  0 0; width: 13px; height: 13px; display: block; top: 7px;
+}
+.xuanzhong{
+	position: absolute; left: 0; background: url(../images/list_box.jpg) no-repeat  0 -26px; width: 13px; height: 13px; display: block; top: 7px;
+}
+.huaguo{
+	position: absolute; left: 0; background: url(../images/list_box.jpg) no-repeat  0 -13px; width: 13px; height: 13px; display: block; top: 7px;
+}
+.dx{
+	 background: #A1A1A1; color: #fff !important; width: 52px !important; position: absolute;right: 48px; top:0px;
+	 padding: 0 !important; text-align:  center; border-radius: 5px; border: 1px solid #fff;
+	 }
+.dxqr{
+	 height: 35px; text-align: center; padding-top: 10px;
+}
+.sure{
+	width: 57px !important; height: 23px; line-height: 23px; text-align: center; background: red; padding: 0 !important; color: #FFFFFF !important; border-radius: 5px; cursor: pointer;
+}
+.nor{
+	width: 57px !important; height: 23px; line-height: 23px; text-align: center; background: #A1A1A1; padding: 0 !important; color: #000 !important; border-radius: 5px; cursor: pointer;
+}
+.sort{
+	 margin-top:63px; height: 45px; line-height: 45px; padding-left: 15px; background: #f8f8f8;
+}
+.sort-left a{
+	float: left; padding: 0 28px; display: block; position: relative; text-align: center;
+}
+.sort-style{
+	background:#C8002E; color: #fff;
+}
+.sort-sure{
+	background: url(../images/order_icon.png) no-repeat -243px -330px; width: 7px; height: 14px; display: block; position: absolute;left: 64px; top: 18px;
+}
+
+.sort-price{
+	 width: 390px; height: 24px; line-height: 24px; margin-top: 11px; margin-left: 35px;
+}
+.sort-price input{
+	border: 0;
+}
+.minprice,.maxprice{
+	width: 70px; border: 1px solid #7C7C7C; height: 24px; line-height: 24px; padding-left: 5px; position:relative
+}
+.price1,.price2{ 
+	width: 54px; height: 24px; line-height: 24px; position: absolute;right: 0; top: 0;
+}
+.sort-price a{
+	display:inline-block; margin-left: 15px; width: 57px; height: 23px; line-height: 23px; background: url(../images/order_button.png) no-repeat -191px 0; text-align: center; color: white;
+}
+.sort-price a:hover{
+	text-decoration: underline;background: url(../images/order_button.png) no-repeat -271px 0;
+}
+
+.page-now{
+	 height: 23px; padding: 0 6px; border: 2px solid #C4C4C4; float: left; line-height: 23px;
+}
+.page-down{
+	 border: 2px solid #C4C4C4;margin-left: 8px;padding-left: 18px; padding-right: 7px;position: relative;float: left; display: block; height: 23px; line-height: 23px;
+}
+.page-up{
+	 border: 2px solid #C4C4C4;margin-left: 8px;padding-left: 7px; padding-right:18px;position: relative;float: left; display: block;height: 23px; line-height: 23px;
+}
+.sort-page{
+	padding-top: 13px;
+}
+.downpic{
+	background: url(../images/order_icon.png) -8px -66px no-repeat; width: 7px; height: 9px; position: absolute; left: 8px; top: 7px;
+}
+.uppic{
+	background: url(../images/order_icon.png) -31px -66px no-repeat; width: 7px; height: 9px; position: absolute; right: 8px; top: 7px;
+}
+.page-down:hover,.page-up:hover{
+	border: 2px solid red;
+}
+
+.pic-list{
+	margin-top: 16px;
+}
+.pic-list li{
+	float: left;width: 18.47%;overflow: hidden;margin-right: 1.9%;padding-bottom: 27px;
+}
+.SPZS{
+	width: 100%; overflow: hidden; position:relative
+}
+.SPZS a{
+	border: 1px solid #FFFDFF; display: block;
+}
+.SPZS img{
+	width:100%; height: 271px;display: block;
+}
+.SPZS a:hover{
+	border: 1px solid red;
+}
+.tianz{
+	width: 47px;
+}
+.list-name .yuxuan{
+	color: red;
+}
+.reds{
+	    font-weight: bold;font-size: 16px;color: #D40C19;
+}
+.zsname{
+	width: 100%;line-height: 18px;padding-top: 3px; height: 38px;overflow: hidden;margin-bottom: 3px;font-size: 13px;color: #000;
+}
+
+.zsname a:hover{ color: red;}
+
+.zsxiao2 .reds{
+	   font-size: 14px; color: #D40C19; font-weight: 100;
+}
+.pic-list .nomar{
+	margin: 0;
+}
+.page-goto a{
+	width: 25px; height: 25px; display: block; border: 1px solid #E4E4E4; float: left; text-align: center; line-height: 25px;
+}
+.page-goto .souye,.page-goto .moye,.page-goto .tianz{
+	width: 49px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

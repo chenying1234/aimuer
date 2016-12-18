@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+/*左边导航*/
+.orderCon{ max-width:1167px; min-width:990px; width:expression_r(this.scrollWidth > 1167 ? "1167px": (this.scrollWidth < 990? "990px" : "auto")); margin:0 auto; _width:1167px; padding:17px 0; font-size:14px; font-family:"微软雅黑"; color:#000;}
+/*.orderCon a{ color:#000;}*/
+.orderCon .categbiocn{ margin-top:9px;}
+.blue{ color:#2D62CA!important;}
+strong{ font-weight:bold;}
+.orderJl a{ color:#000;}
+.orderJl{ margin-bottom:20px;}
+/*.right{ float:right;}*/
+.pt5{ padding-top:5px;}
+.noMargLeft{ margin-left:0px!important;}
+.orderCenter{ width:100%; position:relative; min-height:1px;}
+.orderNav{ width:205px; position:absolute; top:0px; left:0px; overflow:hidden; border:1px solid #C0C0C0; padding-top:12px;}
+.orderNavUl{ width:188px; margin:0 auto; padding-bottom:10px; border-bottom: 1px dashed #CCCCCC; margin-bottom:10px;}
+.orderNavUl li{ display:block; overflow:hidden; padding-left:12px;}
+.orderNavTitle{ position:relative; margin-left:10px; height:30px; line-height:30px; color:#000; margin-bottom:3px; font-weight:bold; font-size:14px; padding-left:20px;}
+.orderNavTitle em{ background:url(../../images/2014front/order_icon.png) -435px -26px no-repeat; width:9px; height:10px; position:absolute; top:12px; left:3px;}
+.orderNavText{ height:28px; line-height:28px; display:block; color:#000000;}
+.orderMain{ min-height:630px; _height:630px; width:expression(this.width > 935 ? "935" : true); _width:935px;  padding-left:2.144%; margin-left:205px;}
+/*左边导航 End*/
+
+.orderHint{ height:46px; line-height:46px; background-color:#F1F1F1; color:#000; padding-left:17px;}
+.orderHint a{ color:#000; margin-right:20px; margin-left:10px;}
+.orderHint a:hover{ color:#C30E39;}
+
+.orderMainH2{ height:26px; line-height:26px; margin-bottom:7px;}
+.orderMainH3{ height:26px; line-height:26px; margin-bottom:22px; border-bottom:1px solid #C0C0C0; padding-bottom:3px;}
+
+.orderSeekUl li{ width:100%; padding-bottom:17px; line-height:24px;}
+.SeekName{ *vertical-align:4px;}
+.SeekInput , .SeekInput02 , .SeekInput03, .SeekInput04{ width:270px; height:24px; padding:0 3px; line-height:24px; border:1px solid #C0C0C0;}
+.SeekBut{ width:77px; height:28px; line-height:28px; text-align:center; color:#FFF; background:url(../../images/2014front/order_button.png) 0 0 no-repeat; border:0px; cursor:pointer; padding-bottom:3px; font-family:"微软雅黑";  margin-left:20px; margin-right:15px;}
+.SeekBut:hover{ text-decoration:underline; background-position:-94px 0;}
+.SeekInput02{width:107px;}
+.SeekInput03{width:160px;}
+.SeekInput04{width:330px;}
+.juanTop{ line-height:26px; padding:5px 0px 10px 0px;}
+.secureTop{line-height:30px; padding:5px 0px 10px 0px;}
+.detaMainTable .orderSuit td{ border:0;}
+
+.putcouponinfo{ line-height: 55px;}

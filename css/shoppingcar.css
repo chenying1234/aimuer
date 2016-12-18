@@ -1,0 +1,159 @@
+body,html,div,ul,li,span,a,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,img,i,em,form,input,table,tr,td{margin: 0;padding: 0;}
+body{font-size: 14px; font-family: "微软雅黑";  height: 1000px;}
+ul,li{list-style: none;}
+img{
+	
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+.logo{
+	width: 988px; margin: 5px auto 10px; overflow: hidden;
+}
+.logo ul{
+	float: right; padding-top: 25px; height: 30px; 
+}
+.logo ul li{
+	float: left; font-size: 14px;padding: 0 15px; position: relative;line-height: 30px;z-index: 992;
+}
+.shoppingimg{
+	padding-left: 32px !important; 
+}
+.shoppingimg span{
+	background: url(../images/car_icon.png) no-repeat; width: 16px; height: 16px; position: absolute; left:11px; top:9px;
+}
+.logo em{
+	position: absolute; right: 0; top: 9px; width: 0; overflow: hidden; border-left: 1px solid #372523; height: 12px;
+}
+.shoppcarname{
+	padding-right: 25px !important;
+}
+.red{
+	color: red;
+}
+.logo  li a:hover{
+	color: red; text-decoration: underline;
+}
+.shoppingcar{
+	width: 988px; margin: 0 auto;
+}
+.shoppingcarnav{
+	width: 988px; height: 45px; margin-bottom: 8px; padding-top: 10px;
+} 
+.shoppingcarnav li{
+	float: left;  height: 45px; 
+}
+.icon1{
+	width: 210px; background: url(../images/car_nav.jpg) no-repeat 0 -55px;
+}
+.icon2{
+	width: 228px; background: url(../images/car_nav.jpg) no-repeat -210px 0;
+}
+.icon3{
+	width: 207px; background: url(../images/car_nav.jpg) no-repeat -438px 0;
+}
+.carBar{
+	text-align: right; width: 988px; margin: 0 auto; height: 24px; line-height: 24px; font-size: 14px; letter-spacing: 1px; margin-bottom: 8px;
+}
+.jiesuan{
+	width: 64px; height: 28px; background:url(../images/car_icon.png) no-repeat 0 -169px; display: inline-block; line-height: 24px; vertical-align: middle; margin-left: 5px;
+}
+.jiage{
+	color: red; font-weight: bold; margin-left: 5px; 
+}
+.jielist{
+	 background: url(../images/car_listbj.jpg) repeat-x;  margin: 0 auto;
+}
+.jielist td{
+	height: 39px;
+}
+.shop{
+	width: 986px; margin: 0 auto; border: 1px solid #000000;
+}
+.del{
+	width: 986px; margin: 0 auto; border: 1px solid #000000; height: 44px; background: #E9E7E8; padding-top: 10px;
+}
+.jiezhang{
+	    width: 127px;height: 41px;background: url(../images/car_icon.png) no-repeat  0px -221px;
+}
+.jiageshuzi{
+	font-size: 25px !important; font-weight: bold; padding-left: 15px;
+}
+.tuijian{
+	width: 971px; margin: 10px auto; border: 1px solid #7A7A7A; font-size: 12px; padding: 5px 0 5px 15px; font-family: 宋体;
+}
+.tuijian span{
+	color: red;	 font-size: 14px !important; 
+}
+
+.tuijian li{
+	    height: 20px;line-height: 20px;overflow: hidden;padding-top: 3px;width: 950px 
+}
+
+.tuijian  a{
+	 color: red;
+}
+.tuijian  a:hover{
+	 text-decoration: underline;
+}
+.libj{
+	    display: block;float: left;width: 9px;height: 9px;background: url(../images/spritesbg.gif) no-repeat   0px -90px;margin-top: 7px;
+    margin-right: 8px;
+}
+.tdimg{
+	width: 51px; height: 64px;
+}
+.nogoods p{
+	font-size: 26px; color: #7A7A7A; font-weight: bold;  margin-top:100px ; float:left; margin-left: 38%;
+}
+.nogoods p a{
+	display: block;
+}
+/*悬浮*/
+.xuanfu{
+	position: fixed;right: 0; bottom: 15px; width: 86px; display: block; z-index: 10;
+}
+.gun1{
+	background: url(../images/index16_icon.png) no-repeat 0 -47px; width: 80px; height: 69px; border-radius: 3px; transition: .5s; display: block;margin-top: 1px 
+}
+.gun2{
+	background: url(../images/index16_icon.png) no-repeat 0 -117px; width: 80px; height: 69px; border-radius: 3px; transition: .5s; display: block;margin-top: 1px 
+}
+.gun3{
+	background: url(../images/index16_icon.png) no-repeat 0 -187px; width: 80px; height: 69px; border-radius: 3px; transition: .5s; display: block;margin-top: 1px 
+}
+.gun4{
+	background: url(../images/index16_icon.png) no-repeat 0 -257px; width: 80px; height: 69px; border-radius: 3px; transition: .5s; display: block; margin-top: 1px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
